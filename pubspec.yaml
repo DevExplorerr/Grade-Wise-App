@@ -20,13 +20,22 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_launcher_icons: ^0.14.4
-flutter_launcher_icons:
+  flutter_native_splash: ^2.4.6
+flutter_icons:
   android: true
   ios: true
-  image_path: "assets/gradewise_logo.jpg"  
+  image_path: "assets/app_logo.jpg"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/app_logo.jpg"
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/app_logo.jpg
+  android_12:
+    image: assets/app_logo.jpg
+    color: "#ffffff"  
 
 flutter:
 
   uses-material-design: true
   assets:
-    - "assets/gradewise_logo.jpg"
+    - "assets/app_logo.jpg"
